@@ -5,9 +5,9 @@ import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hellodsadasda'
-app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 587
-app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_SERVER'] = 'pro40.emailserver.vn'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = os.environ.get('MAIL_USERNAME')
 app.config['MAIL_PASSWORD'] = os.environ.get('MAIL_PASSWORD')
 mail = Mail(app)
@@ -22,7 +22,7 @@ def index():
             'from_country') + '. To: ' + request.form.get(
             'to_country') + ', Address: ' + appointment_form.address.data + ', Purpose:' + request.form.get(
             'purpose') + ', Note:' + appointment_form.note.data
-        msg = Message(text, sender='PV Network Customer', recipients=['vuhoang17891@gmail.com'])
+        msg = Message(text, sender='contact@pvnetwork.vn', recipients=['vuhoang17891@gmail.com'])
         mail.send(msg)
         print(text)
         return redirect(url_for('index'))
