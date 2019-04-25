@@ -5,7 +5,7 @@ from wtforms import StringField, SelectField, SubmitField, TextAreaField
 class AppointmentForm(FlaskForm):
     name = StringField('Name')
     email = StringField('Email')
-    address = StringField('Address')
+    mobile_number = StringField('Số điện thoại')
     note = TextAreaField()
     submit = SubmitField('Đăng ký tư vấn')
 

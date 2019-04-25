@@ -20,7 +20,7 @@ def index():
     if appointment_form.validate_on_submit():
         text = 'Name: ' + appointment_form.name.data + ', Email: ' + appointment_form.email.data + ', From: ' + request.form.get(
             'from_country') + '. To: ' + request.form.get(
-            'to_country') + ', Address: ' + appointment_form.address.data + ', Purpose:' + request.form.get(
+            'to_country') + ', Mobile Number: ' + appointment_form.mobile_number.data + ', Purpose:' + request.form.get(
             'purpose') + ', Note:' + appointment_form.note.data
         msg = Message(text, sender='contact@pvnetwork.vn', recipients=['vuhoang17891@gmail.com'])
         mail.send(msg)
