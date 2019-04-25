@@ -746,19 +746,19 @@ z-index: 1;
     height: 250px
 }
 
-.application-btn button {
+.application-btn input {
     padding: 15px 60px;
     border-radius: 30px;
     border: 0;
     background-color: #d7a56e;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     margin: 14px 0 0;
 }
 
-.application-btn button:hover {
+.application-btn input:hover {
     background-color: #bf884c
 }
 .application-heading-btn button {

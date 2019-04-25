@@ -367,16 +367,17 @@
                 <div class="col-md-12">
                     <!--start application form-->
                     <div class="application-form">
-                        <form action="/#" method="post">
+                        <form method="post">
+                            {{ appointment_form.csrf_token }}
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Họ và tên <span>**</span></label>
-                                        <input type="text" class="form-control" placeholder="Họ và tên....">
+                                        {{ appointment_form.name(class="form-control", placeholder="Họ và tên....") }}
                                     </div>
                                     <div class="form-group has-icon">
                                         <label>Quốc gia cấp passport <span>**</span></label>
-                                        <select class="form-control">
+                                        <select name="from_country" class="form-control">
                                             <option selected="">Việt nam</option>
                                             <option>Australia</option>
                                             <option>Austria</option>
@@ -389,7 +390,7 @@
                                     </div>
                                     <div class="form-group has-icon">
                                         <label>Quốc gia sẽ đến <span>**</span></label>
-                                        <select class="form-control">
+                                        <select name="to_country" class="form-control">
                                             <option selected="">Điểm đến</option>
                                             <option>Australia</option>
                                             <option>Austria</option>
@@ -407,35 +408,23 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Email <span>**</span></label>
-                                        <input type="email" class="form-control" placeholder="Địa chỉ email....">
+                                        {{ appointment_form.email(class="form-control", placeholder="Địa chỉ email....") }}
                                     </div>
                                     <div class="form-group has-icon">
                                         <label>Hộ khẩu thường trú ở <span>**</span></label>
-                                        <select class="form-control">
-                                            <option selected="">Chọn</option>
-                                            <option>Australia</option>
-                                            <option>Austria</option>
-                                            <option>Bahrain</option>
-                                            <option>Bangladesh</option>
-                                            <option>Germany</option>
-                                            <option>India</option>
-                                            <option>London</option>
-                                        </select>
+                                        {{ appointment_form.address(class="form-control", placeholder="Hộ khẩu thường trú") }}
                                         <span class="the-icon">
                                                 <i class="fa fa-angle-down"></i>
                                             </span>
                                     </div>
                                     <div class="form-group has-icon">
                                         <label>Mục đích đi <span>**</span></label>
-                                        <select class="form-control">
+                                        <select name="purpose" class="form-control">
                                             <option selected="">Chọn</option>
-                                            <option>Australia</option>
-                                            <option>Austria</option>
-                                            <option>Bahrain</option>
-                                            <option>Bangladesh</option>
-                                            <option>Germany</option>
-                                            <option>India</option>
-                                            <option>London</option>
+                                            <option>Du lich</option>
+                                            <option>Dinh cu</option>
+                                            <option>Trai he</option>
+                                            <option>Du hoc</option>
                                         </select>
                                         <span class="the-icon">
                                             <i class="fa fa-angle-down"></i>
@@ -447,11 +436,10 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Ghi chú riêng <span>**</span></label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                                  placeholder="Nội dung"></textarea>
+                                        {{ appointment_form.note(class="form-control", placeholder="Nội dung", rows="3") }}
                                     </div>
                                     <div class="application-btn text-center">
-                                        <button type="submit">Đăng ký tư vấn</button>
+                                        {{ appointment_form.submit()}}
                                     </div>
 
                                 </div>
