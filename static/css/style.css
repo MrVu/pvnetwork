@@ -279,7 +279,8 @@ nav.navbar.bootsnav ul.nav > li.active:after {
 #welcome-area {
     background-image: url(../img/welcome-img.jpg);
     position: relative;
-} 
+}
+
 #welcome-area .right-image{
 position: absolute;
 right: 20%;

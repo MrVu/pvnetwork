@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         position: absolute;
         right: 5%;
         top: 20%;
@@ -11,7 +11,7 @@
     }
 }
 @media only screen and (min-width: 1202px) and (max-width: 1400px) {
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         position: absolute;
         right: 5%;
         top: 20%;
@@ -79,13 +79,13 @@
     .testimonial-heading h3, .faq-heading h3 {
         font-size: 45px;
     }
-    #wecome-area .right-image{
+    #welcome-area .right-image{
         position: absolute;
         right: 0;
         top: 20%;
         z-index: 1;
     }
-    #wecome-area .right-image img {
+    #welcome-area .right-image img {
         width: 80%;
     }
 
@@ -281,7 +281,7 @@
         float: left !important;
         margin: 0 !important;
     }
-    #wecome-area .right-image{
+    #welcome-area .right-image{
         display: none;
     }
 }
@@ -644,7 +644,7 @@
         float: left !important;
         margin: 0 !important;
     }
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         display: none;
     }
 }
@@ -669,7 +669,7 @@
         float: left !important;
         margin: 0 !important;
     }
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         display: none;
     }
 }
@@ -983,7 +983,7 @@
         float: left !important;
         margin: 0 !important;
     }
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         display: none;
     }
 }
@@ -1300,7 +1300,7 @@
         left:  50%;
         transform: translateX(-50%);
     }
-    #wecome-area .right-image {
+    #welcome-area .right-image {
         display: none;
     }
 }
