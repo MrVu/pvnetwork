@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PV Network</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootsnav.css') }}">
+    <!-- animate -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.scss') }}">
+    <!-- style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- responsive -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="wrapper">
+    <!--start preloader-->
+    <div class="site-preloader" style="display: none;">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <!--start preloader-->
+    <!--start header-->
+    <header id="header" class="sticky">
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default brand-center center-side bootsnav on no-full"><span class="storage-name"
+                                                                                              style="display:none;">Pricing</span>
+            <div class="container-fluid">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand main-logo" href="/index.html"><img
+                            src="{{ url_for('static', filename='img/logo.png')}}" class="logo" alt=""></a>
+                    <a class="navbar-brand scrolled-logo" href="/index.html"><img
+                            src="{{ url_for('static', filename='img/logo-2.png')}}" class="logo" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <div class="col-half left">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="/#welcome-area">Home</a></li>
+                            <li><a href="/#about-area">Giới thiệu</a></li>
+                            <li><a href="/#mission-area">Nhiệm vụ</a></li>
+                            <li><a href="/#services-area">Dịch vụ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-half right">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/#application-area">Lịch hẹn</a></li>
+                            <li><a href="/#testimonial-faq-area">Giải đáp</a></li>
+                            <li><a href="/#contact-area">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+        <div class="clearfix"></div>
+    </header>
+    <!--end header-->
+    <!--start welcome area-->
+    <section id="welcome-area" class="bg-cover">
+        <div class="right-image">
+            <img src="{{ url_for('static', filename='img/Australian_Passport_(_P__Series).png')}}"
+                 alt="header right image">
+        </div>
+        <div class="welcome-overlay"></div>
+        <!--start container-->
+        <div class="container">
+            <!--start row-->
+            <div class="row">
+                <!--start welcome content-->
+                <div class="col-md-7">
+                    <div class="welcome-content">
+                        <div class="d-table">
+                            <div class="d-table-cell">
+                                <h3 class="text-white animated fadeInLeft">Con đường ngắn nhất</h3>
+                                <h1 class="text-white">Visa Định Cư</h1>
+                                <p>Đội ngũ chuyên nghiệp của chúng tôi sẽ tư vấn và hoàn thành mọi hồ sơ cần thiết cho
+                                    bạn và gia đình bạn</p>
+                                <div class="welcome-btns">
+                                    <a class="bg" href="/">Tìm hiểu thêm</a><a href="/">Đặt lịch hẹn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end welcome content-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end welcome area-->
+    <!--start about area-->
+    <section id="about-area">
+        <!--start container-->
+        <div class="container">
+            <!--start row-->
+            <div class="row">
+                <!--start about images-->
+                <div class="col-md-6">
+                    <div class="about-images row wow fadeInLeft"
+                         style="visibility: visible; animation-name: fadeInLeft;">
+                        <div class="col-sm-6">
+                            <img src="{{ url_for('static', filename='img/about-img-1.png')}}" class="img-responsive"
+                                 alt="">
+                            <img src="{{ url_for('static', filename='img/about-img-2.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="{{ url_for('static', filename='img/about-img-3.png')}}" class="img-responsive two"
+                                 alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--end about images-->
+                <!--start about content-->
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <h6>Giúp gia đình bạn có một tương lai tốt hơn</h6>
+                        <h3>Chúng tôi đã giúp hơn 100 gia đình định cư tại Úc và Canada từ 2014</h3>
+                        <p>PV Network sẽ tạo cho bạn và gia đình cơ hội để định cư tại các quốc gia lớn trên thế giới
+                            với chi phí và rủi ro thấp nhất. Với tiêu chí không để người Việt phải cô đơn nơi xứ người,
+                            chúng tôi sẽ tiếp tục hỗ trợ và giúp đỡ gia đình bạn về công việc và cuộc sống ngay cả khi
+                            bạn đã có visa</p>
+                        <h5>Hoàng Xuân Vũ <span>- Founder</span></h5>
+                    </div>
+                </div>
+                <!--end about content-->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end about area-->
+    <!--start mission area-->
+    <section id="mission-area" class="bg-dark">
+        <!--start container-->
+        <div class="container">
+            <!--start section heading-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h6>Nhiệm vụ &amp; tầm nhìn</h6>
+                        <h2 class="text-white">PV Network</h2>
+                    </div>
+                </div>
+            </div>
+            <!--end section heading-->
+            <div class="row">
+                <!--start mission content-->
+                <div class="col-md-6">
+                    <div class="mission-content">
+                        <div class="mission-dots">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <h3 class="text-white">Lựa chọn đơn giản cho những quyết định quan trọng</h3>
+                        <p>Đã từ lâu bạn ấp ủ dự định đưa gia đình đi lập nghiệp ở ngoài nước, bạn mong muốn cho con bạn
+                            có một môi trường học tập tốt hơn. Chúng tôi sẽ tư vấn miễn phí tất cả những thắc mắc của
+                            bạn.</p>
+                        <p>PV Network sẽ hoàn trả lại 100% tiền phí nếu hồ sơ chúng tôi đã nhận nhưng không thể hoàn
+                            thành</p>
+                    </div>
+                </div>
+                <!--end mission content-->
+                <!--start mission video-->
+                <div class="col-md-6">
+                    <div class="mission-video bg-cover">
+                        <div class="mission-video-img wow fadeInRight"
+                             style="visibility: visible; animation-name: fadeInRight;">
+                            <img src="{{ url_for('static', filename='img/video-img.jpg')}}" class="img-responsive"
+                                 alt="">
+                            <div class="mission-video-overlay">
+                                <div class="d-table">
+                                    <div class="d-table-cell">
+                                        <a class="popup-video" href="https://www.youtube.com/watch?v=Mi1QBxVjZAw"><i
+                                                class="fa fa-play"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end mission content-->
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end mission area-->
+    <!--start services area-->
+    <section id="services-area">
+        <!--start container-->
+        <div class="container">
+            <!--start section heading-->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h6>Dịch Vụ</h6>
+                        <h2>Hiện có</h2>
+                    </div>
+                </div>
+            </div>
+            <!--end section heading-->
+            <div class="row">
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">01</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-map-marker.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Trại hè</h4>
+                        <p>Hiểu hơn về văn hóa của nước khác và có hồ sơ tốt giúp ích cho việc du học sau này.</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">02</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-ticket.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Định cư</h4>
+                        <p>Bạn và gia đình sẽ được định cư ở những quốc gia hàng đầu thế giới</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">03</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-travel.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Du lịch</h4>
+                        <p>Cơ hội để trải nghiệm cùng gia đình, tìm hiểu về đất nước khác</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">04</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-briefcase.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Du học</h4>
+                        <p>Giúp con em bạn có cơ hội học tập ở những đất nước có nền giáo dục tiên tiến hơn</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">05</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-house.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Chứng thực</h4>
+                        <p>Hỗ trợ chứng thực tài sản nhanh và sửa những điểm yếu trong hồ sơ</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">06</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-sunset.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Pháp lý</h4>
+                        <p>Hỗ trợ những khúc mắc về mặt pháp lý để giúp bạn có hồ sơ tốt hơn</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">07</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-passport-1.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Việc làm</h4>
+                        <p>Cơ hội để làm việc tại nước ngoài với mức lương tối thiểu trên 50.000AUD/năm</p>
+                    </div>
+                </div>
+                <!--end service single-->
+                <!--start service single-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="service-single">
+                        <span class="bg-text">08</span>
+                        <div class="serv-icon">
+                            <img src="{{ url_for('static', filename='img/icon-passport.png')}}" class="img-responsive"
+                                 alt="">
+                        </div>
+                        <h4>Đào tạo</h4>
+                        <p>Hỗ trợ học tập và lấy bằng cấp ngoại ngữ</p>
+                    </div>
+                </div>
+                <!--end service single-->
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end services area-->
+    <!--start application area-->
+    <section id="application-area" class="bg-cover">
+        <div class="application-overlay"></div>
+        <!--start container-->
+        <div class="container">
+            <!--start heading-->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="section-heading">
+                        <h6>Lịch hẹn</h6>
+                        <h2 class="text-white">Đặt lịch hẹn</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="application-heading-btn text-right">
+                        <button class="active" type="button">visa</button>
+                        <button type="button">passport</button>
+                    </div>
+                </div>
+            </div>
+            <!--end heading-->
+            <div class="row">
+                <div class="col-md-12">
+                    <!--start application form-->
+                    <div class="application-form">
+                        <form action="/#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Họ và tên <span>**</span></label>
+                                        <input type="text" class="form-control" placeholder="Họ và tên....">
+                                    </div>
+                                    <div class="form-group has-icon">
+                                        <label>Quốc gia cấp passport <span>**</span></label>
+                                        <select class="form-control">
+                                            <option selected="">Việt nam</option>
+                                            <option>Australia</option>
+                                            <option>Austria</option>
+                                            <option>Bahrain</option>
+                                            <option>Bangladesh</option>
+                                            <option>Germany</option>
+                                            <option>India</option>
+                                        </select>
+                                        <span class="the-icon"> <i class="fa fa-angle-down"></i></span>
+                                    </div>
+                                    <div class="form-group has-icon">
+                                        <label>Quốc gia sẽ đến <span>**</span></label>
+                                        <select class="form-control">
+                                            <option selected="">Điểm đến</option>
+                                            <option>Australia</option>
+                                            <option>Austria</option>
+                                            <option>Bahrain</option>
+                                            <option>Bangladesh</option>
+                                            <option>Germany</option>
+                                            <option>India</option>
+                                            <option>London</option>
+                                        </select>
+                                        <span class="the-icon">
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email <span>**</span></label>
+                                        <input type="email" class="form-control" placeholder="Địa chỉ email....">
+                                    </div>
+                                    <div class="form-group has-icon">
+                                        <label>Hộ khẩu thường trú ở <span>**</span></label>
+                                        <select class="form-control">
+                                            <option selected="">Chọn</option>
+                                            <option>Australia</option>
+                                            <option>Austria</option>
+                                            <option>Bahrain</option>
+                                            <option>Bangladesh</option>
+                                            <option>Germany</option>
+                                            <option>India</option>
+                                            <option>London</option>
+                                        </select>
+                                        <span class="the-icon">
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                    </div>
+                                    <div class="form-group has-icon">
+                                        <label>Mục đích đi <span>**</span></label>
+                                        <select class="form-control">
+                                            <option selected="">Chọn</option>
+                                            <option>Australia</option>
+                                            <option>Austria</option>
+                                            <option>Bahrain</option>
+                                            <option>Bangladesh</option>
+                                            <option>Germany</option>
+                                            <option>India</option>
+                                            <option>London</option>
+                                        </select>
+                                        <span class="the-icon">
+                                            <i class="fa fa-angle-down"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Ghi chú riêng <span>**</span></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                                  placeholder="Nội dung"></textarea>
+                                    </div>
+                                    <div class="application-btn text-center">
+                                        <button type="submit">Đăng ký tư vấn</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end application form-->
+                </div>
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end application area-->
+
+    <!--start testimonial faq area-->
+    <section id="testimonial-faq-area">
+        <!--start container-->
+        <div class="container">
+            <div class="row">
+                <!--start testimonial-->
+                <div class="col-sm-6">
+                    <div class="testimonial-heading">
+                        <h6>testimonials</h6>
+                        <h3>Khách hàng nói gì về chúng tôi</h3>
+                    </div>
+                    <div id="testimonial-carousel" class="testimonial-carousel owl-carousel owl-theme owl-loaded">
+                        <div class="testimonial">
+                                        <div class="client-feedback">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i></span>
+                                            <p>Cảm ơn công ty đã giúp gia đình tôi sống và làm việc tại Úc, chúc các bạn
+                                                thật nhiều sức khỏe và tiếp tục công việc thật tốt nhé</p>
+                                        </div>
+                                        <div class="client-info">
+                                            <div class="client-image">
+                                                <img src="{{ url_for('static', filename='img/client-2.png')}}"
+                                                     class="img-responsive" alt="">
+                                            </div>
+                                            <div class="client-details">
+                                                <h5>Phong Hoàng</h5>
+                                                <p>Adelaide</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        <div class="testimonial">
+                                        <div class="client-feedback">
+                                            <span><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                    class="fa fa-star"></i></span>
+                                            <p>Cảm ơn công ty đã giúp gia đình tôi sống và làm việc tại Úc, chúc các bạn
+                                                thật nhiều sức khỏe và tiếp tục công việc thật tốt nhé</p>
+                                        </div>
+                                        <div class="client-info">
+                                            <div class="client-image">
+                                                <img src="{{ url_for('static', filename='img/client-2.png')}}"
+                                                     class="img-responsive" alt="">
+                                            </div>
+                                            <div class="client-details">
+                                                <h5>Phong Hoàng</h5>
+                                                <p>Adelaide</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+                <!--end testimonial-->
+                <!--start faq-->
+                <div class="col-sm-6">
+                    <div class="faq-heading">
+                        <h6>Faq</h6>
+                        <h3>Câu hỏi thường gặp</h3>
+                    </div>
+                    <!--start faq accordian-->
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="/#collapse1"
+                                       aria-expanded="false">Visa định cư gồm những loại nào?</a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">Hiện công ty chúng tôi nhận xử lý 2 loại visa định cư của Úc và
+                                    Canada bao gồm 2 loại visa:
+                                    Visa đầu tư và visa di dân tay nghề
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="/#collapse2"
+                                       aria-expanded="false">Tiêu chuẩn tiếng Anh cần thiết là gì?</a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">Tiêu chuẩn tiếng anh cần thiết của định cư diện đầu tư và di dân
+                                    tay nghề là IELTS 5.0 và cho 4 môn nghe nói đọc viết và không có môn nào dưới 4.5
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="/#collapse3"
+                                       aria-expanded="false">Tôi không có khả năng học tiếng Anh?</a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">Chúng tôi có chương trình đào tạo đặc biệt ngắn hạn dành cho
+                                    những khách hàng trên với tỷ lệ đậu IELTS trên 90%
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--end faq accordian-->
+                </div>
+                <!--end faq-->
+            </div>
+        </div>
+        <!--end container-->
+    </section>
+    <!--end testimonial faq area-->
+    <!--start contact area-->
+    <section id="contact-area">
+        <!--start container-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center">
+                        <h6>News</h6>
+                        <h2 class="text-white">Liên hệ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--start contact info-->
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <!--start contact info single-->
+                        <div class="contact-info-single text-center">
+                            <h4 class="text-white">Văn phòng</h4>
+                            <p>369/42 Phạm Văn Chiêu, Phường 14, Gò Vấp</p>
+                        </div>
+                        <div class="contact-info-separator"></div>
+                        <!--end contact info single-->
+                        <!--start contact info single-->
+                        <div class="contact-info-single text-center">
+                            <h4 class="text-white">Điện thoại</h4>
+                            <p>(+84) 907712441</p>
+                        </div>
+                        <div class="contact-info-separator"></div>
+                        <!--end contact info single-->
+                        <!--start contact info single-->
+                        <div class="contact-info-single text-center">
+                            <h4 class="text-white">Mail Address</h4>
+                            <p>contact@pvnetwork.vn</p>
+                        </div>
+                        <!--end contact info single-->
+                    </div>
+                </div>
+                <!--end contact info-->
+            </div>
+        </div>
+        <!--end container-->
+        <!--start contact form-->
+        <div class="contact-form">
+            <h5>Thông tin liên hệ</h5>
+            <h4 class="text-white">Chúng tôi sẽ liên hệ bạn</h4>
+            <form action="/#" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Họ và tên....">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Địa chỉ email....">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Số điện thoại....">
+                </div>
+                <div class="form-group">
+                    <select class="form-control">
+                        <option selected="">Dịch vụ</option>
+                        <option>Question One</option>
+                        <option>Question Two</option>
+                        <option>Question Three</option>
+                        <option>Question Four</option>
+                        <option>Question Five</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Tin nhắn...."></textarea>
+                </div>
+                <div class="contact-btn text-center">
+                    <button type="button">Gửi</button>
+                </div>
+            </form>
+        </div>
+        <!--end contact form-->
+        <!--start company info-->
+        <div class="company-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-info-content">
+                            <img src="{{ url_for('static', filename='img/logo.png')}}" class="img-responsive" alt="">
+                            <p>Chúng tôi luôn đặt lợi ích và kết quả hồ sơ khách hàng lên hàng đầu, luôn đặt mình vào vị
+                                trí khách hàng để có thể cung cấp những dịch vụ tốt nhất. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end company info-->
+    </section>
+    <!--end contact area-->
+    <!--start footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="copyright-text">
+                        <p>Copyright By - PV Network - 2014</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-social text-right">
+                        <ul>
+                            <li><a href="/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="/"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="/"><i class="fa fa-vimeo"></i></a></li>
+                            <li><a href="/"><i class="fa fa-wordpress"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+    <!--jquery js-->
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <!-- owl-carousel js-->
+    <script src="{{ url_for('static', filename='js/owl.carousel.js') }}"></script>
+    <!--popper js-->
+    <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+    <!--bootstrap js-->
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <!--magnific popup js-->
+    <script src="{{ url_for('static', filename='js/magnific-popup.min.js') }}"></script>
+    <!--bootsnav js-->
+    <script src="{{ url_for('static', filename='js/bootsnav.js') }}.min"></script>
+    <!--wow js-->
+    <script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+    <!--custom js-->
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+
+
+</div>
+</body>
+</html>

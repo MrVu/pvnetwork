@@ -1,0 +1,1306 @@
+/*---------------------------------------------------------------------
+    Desktop
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+    #wecome-area .right-image {
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        z-index: 1;
+    }
+}
+@media only screen and (min-width: 1202px) and (max-width: 1400px) {
+    #wecome-area .right-image {
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        z-index: 1;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 35px 8px;
+    }
+    .navbar-brand img {
+        max-width: 120px
+    }
+    .welcome-content {
+        padding: 15% 0 0;
+        height: 650px;
+    }
+    .welcome-content h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .application-heading-btn button {
+        padding: 0 40px;
+    }
+    .location-overlay h4 {
+        font-size: 20px;
+    }
+    .location-overlay a {
+        height: 50px;
+        width: 50px;
+        font-size: 18px;
+        color: #fff;
+        line-height: 48px;
+        margin: 0
+    }
+    .pricing-details {
+        padding: 35px 40px 65px;
+    }
+    .contact-form {
+        right: 30px;
+        bottom: 110px;
+    }
+    .bootsnav.brand-center .navbar-brand {
+        display: inline-block;
+        float: none;
+        margin-left: 50px;
+    }
+    #passport-process-area .nav-tabs li a {
+        padding: 12px 10px;
+    }
+    .passport-content h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .passport-content{
+        padding: 0;
+    }
+    .blog-single h5 a {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .blog-single h6 {
+        font-size: 12px;
+    }
+    .testimonial-heading h3, .faq-heading h3 {
+        font-size: 45px;
+    }
+    #wecome-area .right-image{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        z-index: 1;
+    }
+    #wecome-area .right-image img {
+        width: 80%;
+    }
+
+}
+
+/*---------------------------------------------------------------------
+    Tablet Devices
+----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        padding: 15px
+    }
+    .navbar-brand img {
+        max-width: 120px
+    }
+    nav.navbar.bootsnav {
+        border-bottom: 0;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        padding: 6px 10px;
+    }
+    .nav.navbar-nav {
+        background-color: #000;
+    }
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px;
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a {
+        color: #ddd
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a:hover,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a:hover {
+        color: #fff
+    }
+    nav.navbar.bootsnav ul.nav > li.active {
+        font-weight: 700
+    }
+    nav.navbar.bootsnav ul.nav > li.active:after {
+        display: none
+    }
+    .welcome-content {
+        height: 550px;
+        padding: 0
+    }
+    .welcome-content h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .welcome-content h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .welcome-btns a {
+        padding: 10px 30px;
+    }
+    #about-area {
+        padding: 95px 0 75px;
+    }
+    .about-images img {
+        margin: 0;
+    }
+    .about-content h3 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px
+    }
+    .section-heading {
+        padding: 0 0 50px;
+    }
+    .section-heading h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    #mission-area {
+        padding: 85px 0 50px;
+    }
+    .mission-video-img img {
+        width: 100%;
+    }
+    #services-area {
+        padding: 90px 0 45px;
+    }
+    #application-area .section-heading {
+        text-align: center
+    }
+    .application-heading-btn {
+        text-align: center;
+        margin: 0 0 60px;
+    }
+    #application-area {
+        padding: 90px 0;
+    }
+    #passport-process-area {
+        padding: 90px 0 75px;
+    }
+    .passport-img img {
+        width: 100%;
+    }
+    #passport-process-area .nav-tabs li a {
+        margin: 0 4px 10px;
+    }
+    .visa-process-single button {
+        padding: 15px 45px;
+    }
+    #visa-process-area {
+        padding: 95px 0 45px;
+    }
+    .location-single {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .pricing-details ul li {
+        text-align: center;
+    }
+    .pricing-details ul li i {
+        padding-right: 4px;
+    }
+    .pricing-header h1 {
+        font-size: 60px;
+        line-height: 70px
+    }
+    #pricing-area .nav-tabs li a {
+        line-height: 45px;
+    }
+    .pricing-details {
+        padding: 35px 10px 65px;
+    }
+    #pricing-area {
+        padding: 80px 0 125px;
+    }
+    #versity-area {
+        padding: 90px 0 65px;
+    }
+    #gallery-area {
+        padding: 90px 0 55px;
+    }
+    #news-area {
+        padding: 90px 0 75px;
+    }
+    .testimonial-heading h3,
+    .faq-heading h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #testimonial-faq-area {
+        padding: 90px 0 75px;
+    }
+    #accordion .panel {
+        margin: 0 0 15px;
+    }
+    .client-feedback::after {
+        left: 68px;
+    }
+    .contact-form {
+        position: unset;
+        margin: 0 10% 95px;
+    }
+    #contact-area {
+        padding: 90px 0 0;
+    }
+    .company-info {
+        padding: 92px 0 75px;
+    }
+    .mission-video {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #pricing-area {
+        padding: 100px 0 125px;
+    }
+    .blog-single h5 a {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .testimonial-heading h3, .faq-heading h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .panel-title a {
+        font-size: 16px;
+    }
+    .client-info .client-details {
+        width: 70%;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: left !important;
+        margin: 0 !important;
+    }
+    #wecome-area .right-image{
+        display: none;
+    }
+}
+
+
+/*---------------------------------------------------------------------
+    Large Screen Mobile Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        padding: 15px
+    }
+    .navbar-brand img {
+        max-width: 120px
+    }
+    nav.navbar.bootsnav {
+        border-bottom: 0;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        padding: 6px 10px;
+    }
+    .nav.navbar-nav {
+        background-color: #000;
+    }
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px;
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a {
+        color: #ddd
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a:hover,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a:hover {
+        color: #fff
+    }
+    nav.navbar.bootsnav ul.nav > li.active {
+        font-weight: 700
+    }
+    nav.navbar.bootsnav ul.nav > li.active:after {
+        display: none
+    }
+    .welcome-content {
+        height: 500px;
+        padding: 0
+    }
+    .welcome-content h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .welcome-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .welcome-btns a {
+        padding: 8px 20px;
+        font-size: 12px
+    }
+    #about-area {
+        padding: 70px 0 60px;
+    }
+    .about-images img {
+        margin: 0 0 20px;
+    }
+    .about-images img.two {
+        margin: 20px 0 0;
+    }
+    .about-content h3 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    .section-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #mission-area {
+        padding: 70px 0 35px;
+    }
+    .mission-content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 0 20px;
+    }
+    #services-area {
+        padding: 70px 0 40px;
+    }
+    .service-single {
+        margin: 0 0 30px;
+    }
+    #application-area .section-heading {
+        text-align: center
+    }
+    .application-heading-btn {
+        text-align: center;
+        margin: 0 0 60px;
+    }
+    .application-heading-btn button {
+        height: 50px;
+        padding: 0 30px;
+    }
+    #application-area {
+        padding: 80px 0;
+    }
+    .application-form input,
+    .application-form select {
+        height: 50px !important
+    }
+    .application-form textarea {
+        height: 200px
+    }
+    .application-btn button {
+        padding: 12px 45px;
+    }
+    #passport-process-area {
+        padding: 70px 0 65px;
+    }
+    .passport-content {
+        padding: 40px 15px 0;
+    }
+    #passport-process-area .nav-tabs {
+        margin: 0 0 30px;
+    }
+    #passport-process-area .nav-tabs li a {
+        margin: 0 4px 10px;
+    }
+    .visa-process-single button {
+        padding: 15px 45px;
+    }
+    #visa-process-area {
+        padding: 80px 0 50px;
+    }
+    .visa-process-single {
+        margin: 0 0 25px;
+    }
+    .pricing-table-single {
+        margin: 0 15px 60px;
+    }
+    .location-single {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .pricing-details ul li {
+        text-align: center;
+    }
+    .pricing-details ul li i {
+        padding-right: 4px;
+    }
+    .pricing-header h1 {
+        font-size: 50px;
+        line-height: 60px
+    }
+    #pricing-area .nav-tabs li a {
+        width: 120px;
+        line-height: 45px;
+    }
+    .pricing-details {
+        padding: 35px 10px 65px;
+    }
+    #pricing-area {
+        padding: 70px 0 55px;
+    }
+    #versity-area {
+        padding: 80px 0 55px;
+    }
+    .versity-single {
+        margin: 0 0 20px;
+    }
+    .versity-single img {
+        width: 100%;
+    }
+    .versity-overlay-cont {
+        bottom: 30px;
+    }
+    #gallery-area {
+        padding: 78px 0 50px;
+    }
+    #news-area {
+        padding: 80px 0 35px;
+    }
+    .blog-single {
+        margin: 0 0 35px;
+    }
+    .blog-single img {
+        width: 100%
+    }
+    .faq-heading {
+        margin: 60px 0 0;
+        padding: 0 0 30px
+    }
+    .testimonial-heading h3,
+    .faq-heading h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #testimonial-faq-area {
+        padding: 80px 0 65px;
+    }
+    #accordion .panel {
+        margin: 0 0 15px;
+    }
+    .panel-title a {
+        font-size: 16px;
+    }
+    .client-feedback::after {
+        left: 90px;
+    }
+    .contact-form {
+        position: unset;
+        margin: 0 20px 95px;
+        padding: 50px 30px 60px
+    }
+    .contact-btn button {
+        padding: 12px 30px;
+    }
+    .contact-info-single h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-info-single {
+        padding: 0 30px;
+        margin: 0 0 30px;
+    }
+    .contact-info-single p {
+        margin: 0 0 30px;
+    }
+    #contact-area {
+        padding: 76px 0 0;
+    }
+    .contact-form input,
+    .contact-form select {
+        height: 50px !important
+    }
+    .contact-form {
+        margin: 0 20px 80px
+    }
+    .company-info {
+        padding: 78px 0 60px
+    }
+    .footer-social {
+        text-align: center;
+        padding: 0 0 15px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .about-images img {
+        width: 45%;
+        margin: 0;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .about-images img:last-child {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    .about-images img.two {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .mission-video {
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+
+    #mission-area {
+        padding-top: 120px;
+    }
+    .service-single .bg-text {
+        left: 30%;
+    }
+    .service-single {
+        max-width:  300px;
+        text-align:  center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .serv-icon img {
+        margin: 0 auto;
+    }
+    #child-passport {
+        padding: 20px;
+    }
+    .visa-process-single {
+        max-width:  300px;
+        text-align:  center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .visa-process-single .bg-text {
+        left: 35%;
+    }
+
+    .visa-process-single button {
+        padding: 15px 25px;
+    }
+    #pricing-area {
+        padding-top: 118px;
+        padding-bottom: 80px;
+    }
+
+    .pricing-table-single {
+        max-width:  300px;
+        margin:  0 auto;
+        margin-bottom: 60px;
+    }
+
+    .versity-single {
+        display: block;
+        max-width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #versity-area {
+        padding: 120px 0 80px 0;
+    }
+    #gallery-area img {
+        width: auto;
+        margin:  0 auto;
+        margin-bottom: 30px;
+    }
+
+    #gallery-area {
+        padding: 120px 0 80px 0;
+    }
+    .blog-single {
+        width: 80%;
+        margin:0 auto;
+        margin-bottom:40px;
+    }
+
+    #news-area {
+        padding: 120px 0 80px 0;
+    }
+    #testimonial-faq-area {
+        padding: 120px 0 100px 0;
+    }
+    .footer-info-content img {
+        margin: 0 0 35px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .footer-info-content {
+        text-align: center;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: left !important;
+        margin: 0 !important;
+    }
+    #wecome-area .right-image {
+        display: none;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+   Medium Screen Mobile Devices
+------------------------------------------------------------------------*/
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .about-images img {
+        width: 40%;
+        margin: 0;
+        display: inline-block;
+        margin-left: 30px;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: left !important;
+        margin: 0 !important;
+    }
+    #wecome-area .right-image {
+        display: none;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+    .navbar-brand {
+        padding: 15px
+    }
+    .navbar-brand img {
+        max-width: 120px
+    }
+    nav.navbar.bootsnav {
+        border-bottom: 0;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        padding: 6px 10px;
+    }
+    .nav.navbar-nav {
+        background-color: #000;
+    }
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px;
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a {
+        color: #ddd
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a:hover,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a:hover {
+        color: #fff
+    }
+    nav.navbar.bootsnav ul.nav > li.active {
+        font-weight: 700
+    }
+    nav.navbar.bootsnav ul.nav > li.active:after {
+        display: none
+    }
+    .welcome-content {
+        height: 500px;
+        padding: 0
+    }
+    .welcome-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .welcome-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .welcome-btns a {
+        padding: 8px 20px;
+        font-size: 12px
+    }
+    #about-area {
+        padding: 70px 0 60px;
+    }
+    .about-images img {
+        margin: 0 0 20px;
+    }
+    .about-images img.two {
+        margin: 20px 0 0;
+    }
+    .about-content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px
+    }
+    .about-content h5 {
+        font-size: 16px;
+    }
+    .about-content p {
+        margin: 0 0 20px;
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    .section-heading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    #mission-area {
+        padding: 70px 0 35px;
+    }
+    .mission-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 0 20px;
+    }
+    .mission-video {
+        padding: 0;
+        margin: 30px 0 40px;
+    }
+    #services-area {
+        padding: 70px 0 40px;
+    }
+    .service-single {
+        margin: 0 0 30px;
+    }
+    .service-single h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #application-area .section-heading {
+        text-align: center
+    }
+    .application-heading-btn {
+        text-align: center;
+        margin: 0 0 60px;
+    }
+    .application-heading-btn button {
+        height: 50px;
+        padding: 0 30px;
+    }
+    #application-area {
+        padding: 80px 0;
+    }
+    .application-form input,
+    .application-form select {
+        height: 50px !important
+    }
+    .application-form textarea {
+        height: 200px
+    }
+    .application-btn button {
+        padding: 12px 45px;
+    }
+    #passport-process-area {
+        padding: 70px 0 65px;
+    }
+    .passport-content {
+        padding: 40px 15px 0;
+    }
+    .passport-content h3 {
+        margin: 0 0 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #passport-process-area .nav-tabs {
+        margin: 0 0 30px;
+    }
+    #passport-process-area .nav-tabs li a {
+        margin: 4px 0;
+    }
+    .visa-process-single button {
+        padding: 12px 30px;
+    }
+    #visa-process-area {
+        padding: 80px 0 50px;
+    }
+    .visa-process-single {
+        margin: 0 0 25px;
+    }
+    .pricing-table-single {
+        margin: 0 15px 60px;
+    }
+    .location-single {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .pricing-details ul li {
+        text-align: center;
+    }
+    .pricing-details ul li i {
+        padding-right: 4px;
+    }
+    .pricing-header h1 {
+        font-size: 50px;
+        line-height: 60px
+    }
+    #pricing-area .nav-tabs li a {
+        width: 120px;
+        line-height: 45px;
+    }
+    .pricing-details {
+        padding: 35px 10px 65px;
+    }
+    #pricing-area {
+        padding: 70px 0 55px;
+    }
+    #versity-area {
+        padding: 80px 0 55px;
+    }
+    .versity-single {
+        margin: 0 0 20px;
+    }
+    .versity-single img {
+        width: 100%;
+    }
+    .versity-overlay-cont {
+        bottom: 30px;
+    }
+    #gallery-area {
+        padding: 78px 0 50px;
+    }
+    #news-area {
+        padding: 80px 0 35px;
+    }
+    .blog-single {
+        margin: 0 0 35px;
+    }
+    .blog-single img {
+        width: 100%
+    }
+    .faq-heading {
+        margin: 140px 0 0;
+        padding: 0 0 30px
+    }
+    .testimonial-heading h3,
+    .faq-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #testimonial-faq-area {
+        padding: 80px 0 65px;
+    }
+    #accordion .panel {
+        margin: 0 0 15px;
+    }
+    .panel-title a {
+        font-size: 16px;
+    }
+    .client-feedback::after {
+        left: 90px;
+    }
+    .contact-form {
+        position: unset;
+        margin: 0 20px 95px;
+        padding: 50px 30px 60px
+    }
+    .contact-btn button {
+        padding: 12px 30px;
+    }
+    .contact-info-single h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-info-single {
+        padding: 0 30px;
+        margin: 0 0 30px;
+    }
+    .contact-info-single p {
+        margin: 0 0 30px;
+    }
+    #contact-area {
+        padding: 76px 0 0;
+    }
+    .contact-form input,
+    .contact-form select {
+        height: 50px !important
+    }
+    .contact-form {
+        margin: 0 20px 80px
+    }
+    .company-info {
+        padding: 78px 0 60px
+    }
+    .footer-social {
+        text-align: center;
+        padding: 0 0 15px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-info-content img {
+        margin: 0 0 35px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .footer-info-content {
+        text-align: center;
+    }
+    .contact-btn button {
+        padding: 12px 30px;
+        width: 100%;
+    }
+    .service-single .bg-text {
+        left:  50%;
+        transform: translateX(-50%);
+    }
+
+    .service-single {
+        text-align: center;
+    }
+
+    .serv-icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .serv-icon img {
+        width:  auto;
+        display:  block;
+        margin: 0 auto;
+    }
+    .visa-process-single {
+        text-align: center;
+    }
+
+    .visa-process-single .bg-text {
+        left:  50%;
+        transform: translateX(-50%);
+    }
+    #gallery-area img {
+        margin-bottom: 30px;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: left !important;
+        margin: 0 !important;
+    }
+    #wecome-area .right-image {
+        display: none;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+    Small Screen Mobile Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    nav.navbar.bootsnav .navbar-toggle {
+        float: right;
+        margin-right: 0;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        display: inline-block;
+        float: left !important;
+        margin: 0 !important;
+    }
+    .navbar-brand {
+        padding: 15px
+    }
+    .navbar-brand img {
+        max-width: 120px
+    }
+    nav.navbar.bootsnav {
+        border-bottom: 0;
+    }
+    nav.navbar.bootsnav .navbar-toggle {
+        padding: 6px 10px;
+    }
+    .nav.navbar-nav {
+        background-color: #000;
+    }
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px;
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a {
+        color: #ddd
+    }
+    .sticky nav.navbar.bootsnav ul.nav > li > a:hover,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a,
+    .sticky nav.navbar.bootsnav ul.nav > li.active > a:hover {
+        color: #fff
+    }
+    nav.navbar.bootsnav ul.nav > li.active {
+        font-weight: 700
+    }
+    nav.navbar.bootsnav ul.nav > li.active:after {
+        display: none
+    }
+    .welcome-content {
+        height: 500px;
+        padding: 0
+    }
+    .welcome-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .welcome-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .welcome-btns a {
+        padding: 8px 16px;
+        font-size: 12px;
+        margin-right: 6px
+    }
+    #about-area {
+        padding: 70px 0 60px;
+    }
+    .about-images img {
+        margin: 0 0 20px;
+    }
+    .about-images img.two {
+        margin: 20px 0 0;
+    }
+    .about-content h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px
+    }
+    .about-content h5 {
+        font-size: 16px;
+    }
+    .about-content p {
+        margin: 0 0 20px;
+    }
+    .section-heading {
+        padding: 0 0 30px;
+    }
+    .section-heading h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    #mission-area {
+        padding: 70px 0 35px;
+    }
+    .mission-content h3 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 0 20px;
+    }
+    .mission-video {
+        padding: 0;
+        margin: 30px 0 40px;
+    }
+    #services-area {
+        padding: 70px 0 40px;
+    }
+    .service-single {
+        margin: 0 0 30px;
+    }
+    .service-single h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #application-area .section-heading {
+        text-align: center
+    }
+    .application-heading-btn {
+        text-align: center;
+        margin: 0 0 60px;
+    }
+    .application-heading-btn button {
+        height: 50px;
+        padding: 0 30px;
+    }
+    #application-area {
+        padding: 80px 0;
+    }
+    .application-form input,
+    .application-form select {
+        height: 50px !important
+    }
+    .application-form textarea {
+        height: 200px
+    }
+    .application-btn button {
+        padding: 12px 45px;
+    }
+    #passport-process-area {
+        padding: 70px 0 65px;
+    }
+    .passport-content {
+        padding: 40px 15px 0;
+    }
+    .passport-content h3 {
+        margin: 0 0 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #passport-process-area .nav-tabs {
+        margin: 0 0 30px;
+    }
+    #passport-process-area .nav-tabs li a {
+        margin: 4px 0;
+    }
+    .visa-process-single button {
+        padding: 12px 20px;
+    }
+    #visa-process-area {
+        padding: 80px 0 50px;
+    }
+    .visa-process-single {
+        margin: 0 0 25px;
+    }
+    .pricing-table-single {
+        margin: 0 15px 60px;
+    }
+    .location-single {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+    .pricing-details ul li {
+        text-align: center;
+    }
+    .pricing-details ul li i {
+        padding-right: 4px;
+    }
+    .pricing-header h1 {
+        font-size: 50px;
+        line-height: 60px
+    }
+    #pricing-area .nav-tabs li a {
+        width: 120px;
+        line-height: 45px;
+    }
+    .pricing-details {
+        padding: 35px 10px 65px;
+    }
+    #pricing-area {
+        padding: 70px 0 55px;
+    }
+    #versity-area {
+        padding: 80px 0 55px;
+    }
+    .versity-single {
+        margin: 0 0 20px;
+    }
+    .versity-single img {
+        width: 100%;
+    }
+    .versity-overlay-cont {
+        bottom: 30px;
+    }
+    #gallery-area {
+        padding: 78px 0 50px;
+    }
+    #news-area {
+        padding: 80px 0 35px;
+    }
+    .blog-single {
+        margin: 0 0 35px;
+    }
+    .blog-single img {
+        width: 100%
+    }
+    .faq-heading {
+        margin: 140px 0 0;
+        padding: 0 0 30px
+    }
+    .testimonial-heading h3,
+    .faq-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #testimonial-faq-area {
+        padding: 80px 0 65px;
+    }
+    #accordion .panel {
+        margin: 0 0 15px;
+    }
+    .panel-title a {
+        font-size: 16px;
+    }
+    .client-feedback::after {
+        left: 90px;
+    }
+    .contact-form {
+        position: unset;
+        margin: 0 20px 95px;
+        padding: 50px 12px 60px
+    }
+    .contact-btn button {
+        padding: 12px 30px;
+    }
+    .contact-info-single h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-info-single {
+        padding: 0 30px;
+        margin: 0 0 30px;
+    }
+    .contact-info-single p {
+        margin: 0 0 30px;
+    }
+    #contact-area {
+        padding: 76px 0 0;
+    }
+    .contact-form input,
+    .contact-form select {
+        height: 50px !important
+    }
+    .contact-form {
+        margin: 0 10px 80px
+    }
+    .company-info {
+        padding: 78px 0 60px
+    }
+    .footer-social {
+        text-align: center;
+        padding: 0 0 15px;
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-info-content img {
+        margin: 0 0 35px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .footer-info-content {
+        text-align: center;
+    }
+    .contact-btn button{
+        width: 100%;
+    }
+    .blog-single h5 a {
+        font-size: 19px;
+    }
+     #gallery-area img {
+        margin-bottom: 30px;
+    }
+    .service-single {
+        text-align: center;
+    }
+
+    .serv-icon img {
+        width:  auto;
+        margin: 0 auto;
+    }
+
+    .service-single .bg-text {
+        left:  50%;
+        transform: translateX(-50%);
+    }
+    .visa-process-single {
+        text-align: center;
+    }
+
+    .visa-process-single .bg-text {
+        left:  50%;
+        transform: translateX(-50%);
+    }
+    #wecome-area .right-image {
+        display: none;
+    }
+}
